@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Zone</title>
+    <!-- Tailwind css & Daisy UI CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- style sheet link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="bg-white shadow-md">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center py-4">
+                    <!-- Logo -->
+                    <a href="#" class="text-4xl font-bold text-[dark]  font-[robot]">Biker Zone</a>
+
+                    <!-- Hamburger Menu for Mobile -->
+                    <button id="menu-button" class="block md:hidden text-gray-700 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+
+                    <!-- Navbar Links -->
+                    <div id="menu" class="hidden md:flex items-center space-x-6">
+                        <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-600">Services</a>
+                        <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+                        <a href=""><button class="primary-btn">Login</button></a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu -->
+                <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center space-y-2 py-4">
+                    <a href="#" class="text-gray-700 hover:text-blue-600">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600">About</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600">Services</a>
+                    <a href="#" class="text-gray-700 hover:text-blue-600">Contact</a>
+                    <a href=""><button class="primary-btn">Login</button></a>
+                </div>
+            </div>
+    </header>
+
+
+    <!-- js  -->
+    <script src="nav.js"></script>
+</body>
+
+</html>
