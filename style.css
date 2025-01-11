@@ -10,3 +10,18 @@
     font-weight: 500;
     line-height: normal;
 }
+
+.btn-hover {
+    background: #FFFFFF;
+    color: #E76F51;
+    border: 1px solid #E76F51;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: poppins;
+}
+
+.btn-hover:hover {
+    background-color: #E76F51;
+    color: #FFF;
+}
