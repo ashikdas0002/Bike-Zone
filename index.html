@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bike Zone</title>
-    <!-- Tailwind css & Daisy UI CDN  -->
+    <!-- Tailwind css & Daisy UI flowbite CDN  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+
 
     <!-- style sheet link  -->
     <link rel="stylesheet" href="style.css">
@@ -16,7 +18,7 @@
 
 <body>
     <header>
-        <nav class="bg-white shadow-md">
+        <nav class="bg-[#E76F511A] shadow-md">
             <div class="container mx-auto px-4">
                 <div class="flex justify-between items-center py-4">
                     <!-- Logo -->
@@ -49,11 +51,232 @@
                     <a href=""><button class="primary-btn">Login</button></a>
                 </div>
             </div>
+        </nav>
+        <!-- header banner slider  -->
+        <div id="indicators-carousel" class="relative w-full" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-[700px] overflow-hidden rounded-lg md:h-[500px]">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out bg-[#E76F511A]" data-carousel-item="active">
+                    <div class="md:flex items-center justify-center
+                    p-[20px]">
+                        <div>
+                            <h2 class="md:w-[475px] text-[#000;]font-[poppins]
+                            text-[24px] 
+                            md:text-[60px]
+                            font-bold
+                            text-center
+                            md:text-start
+                            ">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+                            <p class="
+                            w-[321px]
+                            md:w-[440px] text-[#000000CC] font-[poppins] text-[16px] font-light mb-[10px]
+                            mx-auto
+                            md:mx-[0px]
+                            ">
+                                Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+                            <div class="text-center md:text-start">
+                                <button class="primary-btn">
+                                    Purches
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/slider/bike1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out bg-[#E76F511A]" data-carousel-item="active">
+                    <div class="md:flex items-center justify-center
+                                    p-[20px]">
+                        <div>
+                            <h2 class="md:w-[475px] text-[#000;]font-[poppins]
+                                            text-[24px] 
+                                            md:text-[60px]
+                                            font-bold
+                                            text-center
+                                            md:text-start
+                                            ">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+                            <p class="
+                                            w-[321px]
+                                            md:w-[440px] text-[#000000CC] font-[poppins] text-[16px] font-light mb-[10px]
+                                            mx-auto
+                                            md:mx-[0px]
+                                            ">
+                                Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+                            <div class="text-center md:text-start">
+                                <button class="primary-btn">
+                                    Purches
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/slider/bike2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out bg-[#E76F511A]" data-carousel-item="active">
+                    <div class="md:flex items-center justify-center
+                                    p-[20px]">
+                        <div>
+                            <h2 class="md:w-[475px] text-[#000;]font-[poppins]
+                                            text-[24px] 
+                                            md:text-[60px]
+                                            font-bold
+                                            text-center
+                                            md:text-start
+                                            ">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+                            <p class="
+                                            w-[321px]
+                                            md:w-[440px] text-[#000000CC] font-[poppins] text-[16px] font-light mb-[10px]
+                                            mx-auto
+                                            md:mx-[0px]
+                                            ">
+                                Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+                            <div class="text-center md:text-start">
+                                <button class="primary-btn">
+                                    Purches
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/slider/bike3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out bg-[#E76F511A]" data-carousel-item="active">
+                    <div class="md:flex items-center justify-center
+                                        p-[20px]">
+                        <div>
+                            <h2 class="md:w-[475px] text-[#000;]font-[poppins]
+                                                text-[24px] 
+                                                md:text-[60px]
+                                                font-bold
+                                                text-center
+                                                md:text-start
+                                                ">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+                            <p class="
+                                                w-[321px]
+                                                md:w-[440px] text-[#000000CC] font-[poppins] text-[16px] font-light mb-[10px]
+                                                mx-auto
+                                                md:mx-[0px]
+                                                ">
+                                Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+                            <div class="text-center md:text-start">
+                                <button class="primary-btn">
+                                    Purches
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/slider/bike4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out bg-[#E76F511A]" data-carousel-item="active">
+                    <div class="md:flex items-center justify-center
+                                    p-[20px]">
+                        <div>
+                            <h2 class="md:w-[475px] text-[#000;]font-[poppins]
+                                            text-[24px] 
+                                            md:text-[60px]
+                                            font-bold
+                                            text-center
+                                            md:text-start
+                                            ">
+                                Ride-on R15 V4 with Smile
+                            </h2>
+                            <p class="
+                                            w-[321px]
+                                            md:w-[440px] text-[#000000CC] font-[poppins] text-[16px] font-light mb-[10px]
+                                            mx-auto
+                                            md:mx-[0px]
+                                            ">
+                                Amet minim mollit non deserunt ullamco
+                                est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                            </p>
+                            <div class="text-center md:text-start">
+                                <button class="primary-btn">
+                                    Purches
+                                </button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/slider/bike1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
     </header>
 
 
     <!-- js  -->
     <script src="nav.js"></script>
+    <!-- flowbite cdn link  -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+
+
 </body>
 
 </html>
